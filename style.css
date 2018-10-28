@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: orange;
+  }
+
+  h3 {
+    color: orange;
+  }
+
+  h2 {
+    color: orange;
+  }
+
+  .nounderline {
+    text-decoration: none
+  }
+
+  .ml-400{
+      margin-left: 400px
+      
+  }
+  .ml-800{
+      margin-left: 800px
+  }
+
+    .left-cotent{
+        position: relative;
+        float: left;
+        left: 5%;
+        height: 300px;
+        width: 33%;
+    }
+    .right-cotent{
+        position: relative;
+        float: right;
+        right: 0;
+        height: 300px;
+        width: 33%;
+
+      
+    }
+    .center-cotent{
+        position: relative;
+        width: 33%;
+        height: 300px;
+        float: left;
+        left: 0%;
+    }
+
+.p1 {
+    color:orange;
+    font-size:  20px
+    
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: orange; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
